@@ -20,6 +20,7 @@ _pkgdesc=(
   'about typography on the'
   'web a bit easier.'
 )
+pkgdesc="${_pkgdesc[*]}"
 arch=(
   'any'
 )
