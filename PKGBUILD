@@ -40,7 +40,7 @@ makedepends=(
 )
 _pypa="https://files.pythonhosted.org/packages/source"
 source=(
-  "${_pypa}/${_pyname:0:1}/${_pyname}/${_pyname}-${pkgver}.tar.gz"
+  "${_pypa}/${_pkg:0:1}/${_pkg}/${_pkg}-${pkgver}.tar.gz"
   "jinja-3.1.patch"
 )
 sha256sums=(
